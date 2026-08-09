@@ -6,7 +6,7 @@ struct ListNode{
     elemtype date;
     ListNode* next;
     ListNode(elemtype num):date(num),next(NULL){}
-};
+}；
 
 class LinkedList{
 private:
