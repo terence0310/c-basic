@@ -46,17 +46,6 @@ void stack::allp(){
         curr = curr->next;
     }
 }
-int main(){
-    stack tt;
-    tt.push(1);
-    tt.push(2);
-    tt.push(6);
-    tt.push(9);
-    tt.allp();
-    tt.push(4);
-    cout<<endl;
-    tt.allp();
-    tt.pop();
-    tt.allp();
+int main(){
     return 0;
 }
